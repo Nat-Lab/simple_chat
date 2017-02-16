@@ -1,0 +1,3 @@
+[submodule "tg_bot.js"]
+	path = tg_bot.js
+	url = git@github.com:Nat-Lab/tg_bot.js.git

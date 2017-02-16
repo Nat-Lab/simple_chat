@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  height: 20px;
+  overflow: hidden; 
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav_placeholder {
+  height: 20px;
+}
+
+item {
+  float: left;
+  display: block;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 3px 10px 3px 10px;
+  background-color: #ddd;
+}
+
+item:hover {
+  background-color: #aaa;
+}
+
+item:active {
+  background-color: #666;
+}
+
+.chats {
+  padding: 5px;
+  overflow: auto;
+  box-sizing: border-box;
+  height: calc(100vh - 54px);
+}
+
+.chat {
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.send {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.sendpanel_placeholder {
+  height: 34px;
+}
+
+.message_input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
